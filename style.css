@@ -12,6 +12,14 @@ header {
     padding-right:5px;
 
 }
+.top {
+    color: inherit;        /* Inherits the text color of the surrounding element */
+    text-decoration: none; /* Removes the underline */
+    font-style: inherit;   
+}
+.top:hover {
+    text-decoration: underline;
+}
 ul {
     margin-top:0%;
 }
@@ -53,3 +61,21 @@ body {
     height: 50vh;
 }
 
+footer {
+    color: purple;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #e5d2fa;
+    border-color: purple;
+    border-style: solid;
+    border-width: 0.4vh;
+    border-bottom: 0px;
+    border-right:0px;
+    padding: 0px 3px ;
+    padding-top:-2px;
+    padding-bottom:-2px;
+    font-style: italic;
+    font-size: 2vh;
+}
