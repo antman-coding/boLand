@@ -1,0 +1,55 @@
+header {
+    color:purple;
+    position: fixed;
+    text-align: center;
+    background-color: violet;
+    border-color:purple;
+    border-style: solid;
+    border-radius: 55px;
+    border-width:.4vh;
+    padding: 3px;
+    padding-left:5px;
+    padding-right:5px;
+
+}
+ul {
+    margin-top:0%;
+}
+.nav {
+    background-color:#e5d2fa;
+    padding: 10px;
+    padding-top: 0px;
+    margin-top: 5vh;
+    padding-bottom: 0%;
+    border-color:purple;
+    border-style:solid;
+    border-width:.4vh;
+    max-width: 50vw;
+}
+li {
+    font-size:3vh;
+    font-style:italic;
+}
+h2, h1 {
+    font-style:italic;
+    font-size: 5vh;
+}
+h2 {
+
+    margin-top: 5px;
+}
+body {
+    background-color: #d6b4fc;
+
+}
+.tit {
+    font-style:italic;
+    font-size: 5vh;
+}
+.center-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
