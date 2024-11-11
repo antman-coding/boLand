@@ -10,6 +10,8 @@ header {
     padding: 3px;
     padding-left:5px;
     padding-right:5px;
+    top:5px ;
+    left:5px;
 
 }
 p {
@@ -30,9 +32,8 @@ ul {
     background-color:#e5d2fa;
     padding: 10px;
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: calc(8vh);
     padding-bottom: 0%;
-    margin-top:3vh;
     border-color:purple;
     border-style:solid;
     border-width:.4vh;
@@ -48,7 +49,7 @@ h2, h1 {
 }
 h2 {
 
-    margin-top: 5px;
+    margin-top: 0px;
 }
 body {
     background-color: #d6b4fc;
@@ -62,7 +63,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh; 
+    /*height: 50vh;*/ 
 }
 
 footer {
