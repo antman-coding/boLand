@@ -14,8 +14,15 @@ header {
     left:5px;
 
 }
+.cont {
+    margin-top:2vh;
+    margin-bottom:3vh;
+}
 p {
     font-size: 2.7vh;
+    margin-top:.1vh;
+    margin-bottom:.1vh;
+    margin-left:.3vh;
 }
 .top {
     color: inherit;        
@@ -32,12 +39,12 @@ ul {
     background-color:#e5d2fa;
     padding: 10px;
     padding-top: 0px;
-    margin-top: calc(8vh);
+    margin-top: calc(9vh);
     padding-bottom: 0%;
     border-color:purple;
     border-style:solid;
     border-width:.4vh;
-    max-width: 50vw;
+    max-width: 800px;
 }
 li {
     font-size:3vh;
@@ -46,6 +53,7 @@ li {
 h2, h1 {
     font-style:italic;
     font-size: 5vh;
+    margin-top:0vh;
 }
 h2 {
 
@@ -63,7 +71,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*height: 50vh;*/ 
 }
 
 footer {
@@ -79,8 +86,6 @@ footer {
     border-bottom: 0px;
     border-right:0px;
     padding: 0px 3px ;
-    padding-top:-2px;
-    padding-bottom:-2px;
     font-style: italic;
     font-size: 2vh;
 }
