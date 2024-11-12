@@ -14,6 +14,9 @@ header {
     left:5px;
 
 }
+a:visited {
+    color:purple;
+}
 .cont {
     margin-top:2vh;
     margin-bottom:3vh;
@@ -39,15 +42,19 @@ ul {
     background-color:#e5d2fa;
     padding: 10px;
     padding-top: 0px;
-    margin-top: calc(9vh);
     padding-bottom: 0%;
+    margin-top:10px;
     border-color:purple;
     border-style:solid;
     border-width:.4vh;
     max-width: 800px;
 }
+.firstElem {
+    margin-top:9vh;
+}
 li {
     font-size:3vh;
+    color:purple;
     font-style:italic;
 }
 h2, h1 {
@@ -72,7 +79,31 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+.coolz {
+    margin:0;
+    padding:0;
+    text-align: center; 
+    
+}
+.bottomNav {
+    display: block;
+    float:left;
+    text-align: center;
+    padding:10px;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-bottom:2vh;
+    border-width:0px;
+    border-right:.4vh;
+    border-color:purple;
+    border-style:solid;
+}
+.bottomNav:hover::after {
+    content:" - WIP"
+}
+.bottomNav:last-child{
+    border-right:0px;
+}
 footer {
     color: purple;
     position: fixed;
