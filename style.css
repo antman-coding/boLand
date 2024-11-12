@@ -14,7 +14,7 @@ header {
     left:5px;
 
 }
-a:visited {
+a:visited a {
     color:purple;
 }
 .cont {
