@@ -17,6 +17,9 @@ header {
 a:visited a {
     color:purple;
 }
+a {
+    color:purple
+}
 .cont {
     margin-top:2vh;
     margin-bottom:3vh;
