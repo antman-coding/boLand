@@ -100,9 +100,9 @@ body {
     border-right:.4vh;
     border-color:purple;
     border-style:solid;
-    
+    text-decoration: none;
 }
-.bottomNav:hover::after {
+.wip:hover::after {
     content:" - WIP"
 }
 .bottomNav:last-child{
