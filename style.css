@@ -105,6 +105,9 @@ body {
 .wip:hover::after {
     content:" - WIP"
 }
+.fin {
+    text-decoration: none;
+}
 .bottomNav:last-child{
     border-right:0px;
 }
