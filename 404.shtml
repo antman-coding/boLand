@@ -16,6 +16,7 @@
             <div class="nav">
                 <div class="cont">
                     <p>bad bad, how did you think <!--#echo var="REQUEST_URI" --> was a page?!??!??</p>
+                    <p><a href="mailto:bo@bothebanana.net?subject=hey%20idiot%20fix%20yo%20shit&body=hey%20dumbass%20you%20have%20part%20of%20your%20website%20that%20goes%20to%20bothebanana.com<!--#echo var="REQUEST_URI" -->">its not my fault!</a> </p>
                 </div>
             </div>
         </div>
