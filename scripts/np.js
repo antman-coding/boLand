@@ -7,7 +7,9 @@ function updateNowPlaying() {
         return response.text();
       })
       .then(data => {
-        document.getElementById('nowPlaying').textContent = data;
+        // Decode URI encoded characters
+        const decodedData = decodeURIComponent(data);
+        document.getElementById('nowPlaying').textContent = decodedData;
       })
       .catch(error => {
         console.error('Error fetching now playing data:', error);
