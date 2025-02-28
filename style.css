@@ -1,3 +1,11 @@
+html {
+    font-family: "Monomakh", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+  
+
 header {
     color:purple;
     position: fixed;
@@ -14,6 +22,7 @@ header {
     left:5px;
 
 }
+
 a:visited a {
     color:purple;
 }
