@@ -9,6 +9,7 @@
         <meta name="keywords" content="Bo, The, Banana, bo the banana, bothebanana">
         <meta name="author" content="BoTheBanana">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="scripts/np.js"></script>
     </head>
     <body>
         <header><span class="tit"><a href="/" class="top">bo's wonderful site</a></span></header>
@@ -21,7 +22,7 @@
             </div>
         </div>
         <footer>
-            <p><a href="mailto:bo@bothebanana.net?subject=i%20need%20a"><3</a></p>
+            <p><strong id="nowPlaying">Loading...</strong><a href="mailto:bo@bothebanana.net?subject=i%20need%20a"><3</a></p>
         </footer>
     </body>
 </html>
