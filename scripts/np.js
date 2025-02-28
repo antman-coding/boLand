@@ -22,5 +22,5 @@ function updateNowPlaying() {
   // Call the function to update immediately
   updateNowPlaying();
   
-  // Optionally, set interval to update periodically (every 30 seconds)
-  setInterval(updateNowPlaying, 30000);
+  // Optionally, set interval to update periodically (every how ever many the fuck i want seconds)
+  setInterval(updateNowPlaying, 5000);
