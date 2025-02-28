@@ -1,5 +1,6 @@
 function updateNowPlaying() {
-    document.getElementById('nowPlaying').textContent = "Loading..."
+    document.getElementById('nowPlaying').textContent = "Loading... | "
+    setTimeout(function(){
     fetch('/app')
       .then(response => {
         if (!response.ok) {
@@ -16,6 +17,7 @@ function updateNowPlaying() {
         console.error('Error fetching now playing data:', error);
         document.getElementById('nowPlaying').textContent = 'Could not load now playing information ';
       });
+    }, 100)
   }
   
   // Call the function to update immediately
