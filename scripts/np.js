@@ -1,4 +1,5 @@
 function updateNowPlaying() {
+    document.getElementById('nowPlaying').textContent = "Loading..."
     fetch('/app')
       .then(response => {
         if (!response.ok) {
