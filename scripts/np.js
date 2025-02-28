@@ -9,11 +9,11 @@ function updateNowPlaying() {
       .then(data => {
         // Decode URI encoded characters
         const decodedData = decodeURIComponent(data);
-        document.getElementById('nowPlaying').textContent = decodedData;
+        document.getElementById('nowPlaying').textContent = decodeURIComponent(decodedData);
       })
       .catch(error => {
         console.error('Error fetching now playing data:', error);
-        document.getElementById('nowPlaying').textContent = 'Could not load now playing information';
+        document.getElementById('nowPlaying').textContent = 'Could not load now playing information ';
       });
   }
   
