@@ -8,7 +8,11 @@ function updateNowPlaying() {
       return response.json(); // Expect JSON response
     })
     .then(data => {
-      document.getElementById('nowPlaying').textContent = decodeURIComponent(decodeURIComponent(`BoTheBanana is listening to ${data.song} by ${data.artist} | `));
+      if (data.song != "unknown") {
+        document.getElementById('nowPlaying').textContent = decodeURIComponent(decodeURIComponent(`BoTheBanana is listening to ${data.song} by ${data.artist} | `));
+      } else {
+        document.getElementById('nowPlaying').textContent = "Not playing or offline | "
+      } 
     })
     .catch(error => {
       console.error('Error fetching now playing data:', error);
