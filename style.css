@@ -7,10 +7,10 @@ html {
   
 
 header {
-    color:purple;
+    color:#800080;
     position: fixed;
     text-align: center;
-    background-color: violet;
+    background-color: #ee82ee;
     border-color:purple;
     border-style: solid;
     border-radius: 55px;
@@ -69,10 +69,21 @@ li {
     color:purple;
     font-style:italic;
 }
-h2, h1 {
+h2, h1{
     font-style:italic;
     font-size: 5vh;
     margin-top:0vh;
+}
+h3 {
+    font-style: italic;
+    font-size: 3vh; 
+    margin-top: .5vh;
+    margin-bottom: 1vh;
+    text-align: center;
+    border: 0;
+    border-bottom: .4vh;
+    border-color: black;
+    border-style: solid;
 }
 h2 {
 
@@ -119,6 +130,32 @@ body {
 }
 .bottomNav:last-child{
     border-right:0px;
+}
+.webRing{
+    bottom:3vh;
+    position:fixed;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    max-width: 800px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+}
+.banner {
+    margin-left: auto;
+    margin-right: auto;
+    display:inline-block;
+    margin-bottom:.5vh;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+    min-height: 3vh;
+
 }
 footer {
     color: purple;
