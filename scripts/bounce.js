@@ -25,7 +25,7 @@ function getRandomNumberBetween(min, max) {
   }
 function bananaChangeWidth (){
     var bananaPos = banana.getBoundingClientRect();
-    banana.style.left = String(bananaPos.x + direction[0] * (width-bananaPos.width)/(height-bananaPos.height) * randVariationX) + "px"
+    banana.style.left = String(bananaPos.x + direction[0] * randVariationX) + "px"
     banana.style.top = String(bananaPos.y + direction[1] * randVariationY) + "px"
     if (bananaPos.x  + bananaPos.width >= width){
         direction[0] = -1
