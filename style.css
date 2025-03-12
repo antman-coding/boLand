@@ -22,7 +22,40 @@ header {
     left:5px;
 
 }
-
+@keyframes bounceHorizontal {
+    0% {
+      left: 0;
+    }
+    25% {
+      left: 10vw;
+    }
+    50% {
+      left: 40vw;
+    }
+    75% {
+      left: 85vw;
+    }
+    100% {
+      left: calc(100vw - 20%); /* Subtract element width to keep it on screen */
+      right: 0;
+    }
+  }
+  
+  @keyframes bounceVertical {
+    0% {
+      top: 0;
+    }
+    33% {
+      top: 79vh;
+    }
+    66% {
+      top: 25vh;
+    }
+    100% {
+      top: calc(70vh); /* Subtract element height to keep it on screen */
+      bottom: 0;
+    }
+  }
 a:visited a {
     color:purple;
 }
@@ -156,6 +189,27 @@ body {
     image-rendering: -webkit-optimize-contrast;
     min-height: 3vh;
 
+}
+.noAnti{
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+    min-width: 50px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+
+}
+.dvdBanana {
+
+    width: fit-content;
+    position: fixed;
+    /*
+    left:0;
+    top:0;
+*/
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 }
 footer {
     color: purple;
