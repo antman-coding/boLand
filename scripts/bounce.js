@@ -33,8 +33,7 @@ function bananaChangeWidth (){
         randVariationX = getRandomNumberBetween(.5, 1.5)
         randVariationY = 2 - randVariationX
         score++;
-    } 
-    if (bananaPos.y  + bananaPos.height >= height){
+    } else if (bananaPos.y  + bananaPos.height >= height){
         direction[1] = -1
         randVariationX = getRandomNumberBetween(.5, 1.5)
         randVariationY = 2 - randVariationX
@@ -44,8 +43,7 @@ function bananaChangeWidth (){
             window.open("https://www.youtube.com/watch?v=lX1o7Irvy38", '_blank').focus();
         }
         
-    } 
-    if (bananaPos.x < 0){
+    } else if (bananaPos.x < 0){
         direction[0] = 1
         randVariationX = getRandomNumberBetween(.5, 1.5)
         randVariationY = 2 - randVariationX
@@ -54,8 +52,7 @@ function bananaChangeWidth (){
             alert("CORNER HIT!1!!1!1!1!11!!")
             window.open("https://www.youtube.com/watch?v=lX1o7Irvy38", '_blank').focus();
         }
-    } 
-    if (bananaPos.y  < 0 ){
+    } else if (bananaPos.y  < 0 ){
         direction[1] = 1
         randVariationX = getRandomNumberBetween(.5, 1.5)
         randVariationY = 2 - randVariationX
