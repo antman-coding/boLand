@@ -27,30 +27,46 @@ function bananaChangeWidth (){
     var bananaPos = banana.getBoundingClientRect();
     banana.style.left = String(bananaPos.x + direction[0] * randVariationX) + "px"
     banana.style.top = String(bananaPos.y + direction[1] * randVariationY) + "px"
+    var score = 0
     if (bananaPos.x  + bananaPos.width >= width){
         direction[0] = -1
         randVariationX = getRandomNumberBetween(.5, 1.5)
         randVariationY = 2 - randVariationX
-        
+        score++;
     } 
     if (bananaPos.y  + bananaPos.height >= height){
         direction[1] = -1
         randVariationX = getRandomNumberBetween(.5, 1.5)
         randVariationY = 2 - randVariationX
+        score++;
+        if (score == 2) {
+            alert("CORNER HIT!1!!1!1!1!11!!")
+            window.open("https://www.youtube.com/watch?v=lX1o7Irvy38", '_blank').focus();
+        }
         
     } 
     if (bananaPos.x < 0){
         direction[0] = 1
         randVariationX = getRandomNumberBetween(.5, 1.5)
         randVariationY = 2 - randVariationX
-        
+        score++;
+        if (score == 2) {
+            alert("CORNER HIT!1!!1!1!1!11!!")
+            window.open("https://www.youtube.com/watch?v=lX1o7Irvy38", '_blank').focus();
+        }
     } 
     if (bananaPos.y  < 0 ){
         direction[1] = 1
         randVariationX = getRandomNumberBetween(.5, 1.5)
         randVariationY = 2 - randVariationX
-        
+        score++;
+        if (score == 2) {
+            alert("CORNER HIT!1!!1!1!1!11!!")
+            window.open("https://www.youtube.com/watch?v=lX1o7Irvy38", '_blank').focus();
+        }
+
     } 
+    
 }
 
 window.addEventListener('resize', function() {
