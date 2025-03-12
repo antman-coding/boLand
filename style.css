@@ -201,7 +201,7 @@ body {
 
 }
 .dvdBanana {
-
+    z-index: -999;
     width: fit-content;
     position: fixed;
     line-height: 0;
