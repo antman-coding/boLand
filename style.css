@@ -196,20 +196,17 @@ body {
     image-rendering: pixelated;
     image-rendering: -webkit-optimize-contrast;
     min-width: 50px;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
+    padding-bottom: 0;
+    margin-bottom: 0;
 
 }
 .dvdBanana {
 
     width: fit-content;
     position: fixed;
-    /*
-    left:0;
-    top:0;
-*/
-    padding-bottom: 0%;
-    margin-bottom: 0%;
+    line-height: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 footer {
     color: purple;

@@ -30,25 +30,25 @@ function bananaChangeWidth (){
     if (bananaPos.x  + bananaPos.width >= width){
         direction[0] = -1
         randVariationX = getRandomNumberBetween(.5, 1.5)
-        randVariationY = getRandomNumberBetween(.5, 1.5)
+        randVariationY = 2 - randVariationX
         
     } 
     if (bananaPos.y  + bananaPos.height >= height){
         direction[1] = -1
         randVariationX = getRandomNumberBetween(.5, 1.5)
-        randVariationY = getRandomNumberBetween(.5, 1.5)
+        randVariationY = 2 - randVariationX
         
     } 
     if (bananaPos.x < 0){
         direction[0] = 1
         randVariationX = getRandomNumberBetween(.5, 1.5)
-        randVariationY = getRandomNumberBetween(.5, 1.5)
+        randVariationY = 2 - randVariationX
         
     } 
     if (bananaPos.y  < 0 ){
         direction[1] = 1
         randVariationX = getRandomNumberBetween(.5, 1.5)
-        randVariationY = getRandomNumberBetween(.5, 1.5)
+        randVariationY = 2 - randVariationX
         
     } 
 }
