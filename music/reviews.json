@@ -1,15 +1,15 @@
 {
 "reviews":[
     {"rating":6, "album":"LP!", "artist":"JPEGMAFIA", "content":
-        "The first time I listened to JPEGMAFIA's \"LP!\", I didn't know how to feel about it. I did know I had never heard something like it. The production was crazy, his voice was mindblowing, and the lyricism was great. It switches ideas so fast, yet still comes together without dissapointment.",
-     "albumArt":"https://coverartarchive.org/release/358b2033-aef1-46e5-b378-97e32c703e92/36245061052-1200.jpg"},
+        "The first time I listened to JPEGMAFIA's \"LP!\", I didn't know how to feel about it. I did know I had never heard something like it. The production was crazy, his voice was mindblowing, and the lyricism was great. It switches ideas so fast, yet still comes together without disappointment.",
+     "albumArt":"/img/LP!.jpg", "time":1742523557},
 
     {"rating":6, "album":"Diamond Jubilee", "artist":"Cindy Lee", "content":
         "When this record first came out, I had seen it being disscussed, but had not listened to it (mostly due too its daunting 2 hour runtime), and I have never regretted ignoring something more. Nothing in the 32 long tracklist \"misses\" for me. The switching between singing styles works well throughout the double album, and is emotional complex.",
-     "albumArt":"https://coverartarchive.org/release/fd4d8984-4cd4-41df-910d-6e33806f5bee/40728998860-1200.jpg"},
+     "albumArt":"/img/diamondJubilee.jpg", "time":1742523558},
 
     {"rating":6, "album":"IGOR", "artist":"Tyler, the Creator", "content":
-        "The breakup neo soul album by one of the most respected, previously polarizing, artists today. And to top it all off, it was about a queer reationship, told by someone previously viewed as homophobic. It also features his best songs musiclly and delivers emotion in a astounding way.",
-    "albumArt":"https://coverartarchive.org/release/4603cee3-ece6-435c-b0b7-7d9eb1842d36/23182237048-1200.jpg"}
+        "The breakup neo soul album by one of the most respected, and previously polarizing artists today. And to top it all off, it was about a gay reationship, told by someone previously viewed as homophobic. It also features his best songs musically and delivers emotion in a astounding way.",
+    "albumArt":"/img/igor.jpg", "time":1742523560}
 ]
 }

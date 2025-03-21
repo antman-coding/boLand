@@ -1,0 +1,14 @@
+        <div class=\"center-cont firstElem\">
+            <div class=\"nav review\">
+                <div class=\"cont\">
+                    <h1 class=\"rewiewTitle\">Diamond Jubilee</h1>
+                    <div class=\"nonTitle\">
+                        <div class=\"imagePlusRating\">
+                            <img class=\"reviewImage\" src=\"/img/diamondJubilee.jpg\">
+                            <div class=\"rating\">6/6</div>
+                        </div>
+                        <span class=\"reviewContent\">thing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
